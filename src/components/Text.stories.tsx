@@ -11,7 +11,7 @@ export default {
   argTypes: {
     size: {
       options: ["small", "medium", "large"],
-      control: { type: "radio" },
+      control: { type: 'select' },
     },
   },
 } as Meta<TextProps>;
